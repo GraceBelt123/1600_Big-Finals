@@ -1,0 +1,10 @@
+//To get starting, myCharacter and Answer as a character number. my best options are to click as to add and Ac or enter as to return. Like I've done with FunctionsWithReturns and Math Operators including ElseClause.
+//To make an equality that I found my way to do this myCharacter and "+" that are equalize of this ==. 
+//if (myCharacter == "+") is the same thing as Answer.Add("+"); that's related to public List<string> Answer;.
+//Here's the example as you read 1, 2 and 3 of these sentences above this sentence. But not really about Ac or enter as to return. 
+        if (myCharacter == "+")
+        {
+            Answer.Add("+");
+        }
+//As for return, example = 10 + 10; which is equal to 20 as a return but how can I do that?
+//How can I confirm with int to string or string to int that am not entirely sure, if could do the same thing as example shows above.
