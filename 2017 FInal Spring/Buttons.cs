@@ -9,15 +9,7 @@ public class Buttons : MonoBehaviour
     public InputField Sir;
     public InputField super;
     public InputField dogs;
-    public InputField sugar;
-    public InputField happy;
-    public InputField great;
-    public InputField down;
-    public InputField up;
-    public InputField cheers;
-    public InputField hello;
-    public InputField sweet;
-    public InputField good;
+  
 
     public void AddButton()
     {
@@ -29,21 +21,21 @@ public class Buttons : MonoBehaviour
     public void AddCharacter()
     {
         float sub;
-        sub = float.Parse(sugar.text) - float.Parse(happy.text);
-        great.text = sub.ToString();
+        sub = float.Parse(Sir.text) - float.Parse(super.text);
+        dogs.text = sub.ToString();
     }
 
     public void AddBalls()
     {
         float multiple;
-        multiple = float.Parse(cheers.text) * float.Parse(down.text);
-        up.text = multiple.ToString();
+        multiple = float.Parse(Sir.text) * float.Parse(super.text);
+        dogs.text = multiple.ToString();
     }
 
     public void AddDays()
     {
         float divide;
-        divide = float.Parse(hello.text) / float.Parse(sweet.text);
-        good.text = divide.ToString();
+        divide = float.Parse(Sir.text) / float.Parse(super.text);
+        dogs.text = divide.ToString();
     }
 }
