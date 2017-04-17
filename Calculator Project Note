@@ -7,4 +7,16 @@
             Answer.Add("+");
         }
 //As for return, example = 10 + 10; which is equal to 20 as a return but how can I do that?
-//How can I confirm with int to string or string to int that am not entirely sure, if could do the same thing as example shows above.
+//How can I convert with int to string or string to int that am not entirely sure, if could do the same thing as example shows above. 
+
+//Now I've come to understand more or less, no, even a bit. 
+// (sweet.text), sweet as InputField and as for text. 
+public InputField hello;//You need InputField with a variable name. For dividing. 
+public InputField good;
+public InputField sweet;
+ public void AddDays()
+    {
+        float divide;//First, put float. Float as int. 
+        divide = float.Parse(hello.text) / float.Parse(sweet.text);//Parse is something like a phase that has equal to. 
+        good.text = divide.ToString();
+    }
