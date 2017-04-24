@@ -6,15 +6,16 @@ using System.Collections.Generic;
 
 public class Buttons : MonoBehaviour
 {
+    //Random.Range() == public void Lucky.
+    //Need to figure what to do with Arrays. Maybe. It seem to be restored collection. 
     public InputField Sir;
     public InputField super;
     public InputField dogs;
-  
-
+   
     public void AddButton()
     {
-        float sum;
-        sum = float.Parse(Sir.text) + float.Parse(super.text);
+        float sum; 
+        sum = float.Parse(Sir.text) + float.Parse(super.text); 
         dogs.text = sum.ToString();
     }
 
@@ -37,5 +38,10 @@ public class Buttons : MonoBehaviour
         float divide;
         divide = float.Parse(Sir.text) / float.Parse(super.text);
         dogs.text = divide.ToString();
+    }
+
+    public void Lucky ()
+    {
+        
     }
 }
