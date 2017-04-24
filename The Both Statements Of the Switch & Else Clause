@@ -4,8 +4,8 @@ using UnityEngine.UI;
 using System.Collections.Generic;
 
 public class SwitchStatement : MonoBehaviour
-//The Switch Statement and Else Clause Statement are both similar. Example
 {
+//The Switch Statement and Else Statement are both similar. 
     
     public void Switch (int numbers)
     {
@@ -21,4 +21,3 @@ public class SwitchStatement : MonoBehaviour
         
     }
 }
-
