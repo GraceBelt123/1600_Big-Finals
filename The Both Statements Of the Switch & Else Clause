@@ -1,1 +1,24 @@
-The Switch Statement and Else Clause Statement are both similar. Example
+using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
+using System.Collections.Generic;
+
+public class SwitchStatement : MonoBehaviour
+//The Switch Statement and Else Clause Statement are both similar. Example
+{
+    
+    public void Switch (int numbers)
+    {
+        switch (numbers)
+        { 
+                
+               
+
+       }
+    } 
+    public void ElseClause ()
+    {
+        
+    }
+}
+
