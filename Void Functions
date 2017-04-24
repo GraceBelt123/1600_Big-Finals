@@ -8,6 +8,7 @@ public class Buttons : MonoBehaviour
 {
     //Random.Range() == public void Lucky.
     //Need to figure what to do with Arrays. Maybe. It seem to be restored collection. 
+    //FunctionsWithReturns Statement as well. Including with parameters. 
     public InputField Sir;
     public InputField super;
     public InputField dogs;
