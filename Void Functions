@@ -40,9 +40,11 @@ public class Buttons : MonoBehaviour
         divide = float.Parse(Sir.text) / float.Parse(super.text);
         dogs.text = divide.ToString();
     }
-
-    public void Lucky ()
+    
+    void Start ()
     {
-        
+        number = Random.Range(1, 9);
+        randomNum.text += number.ToString();
     }
 }
+
