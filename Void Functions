@@ -49,4 +49,3 @@ public class Buttons : MonoBehaviour
         randomNum.text += number.ToString();
     }
 }
-
